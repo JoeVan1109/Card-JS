@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.card-1 {
+  background-color: hsl(213, 19%, 18%);
+  width: 374px;
+  height: 358px;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  padding: 33px;
+  color: hsl(0, 0%, 100%);
+  border-radius: 30px;
+}
+
+.rond {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.star {
+  position: relative;
+  top: 11px;
+  left: 11px;
+}
+
+h1 {
+  margin-top: 70px;
+}
+
+.text-1 {
+  color: hsl(217, 12%, 63%);
+}
+
+.button {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  color: hsl(216, 12%, 54%);
+  border: none;
+  width: 38px;
+  height: 38px;
+  margin: 18px;
+  margin-bottom: 44px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.button:hover {
+  background-color: hsl(216, 12%, 54%);
+  transition: background-color 1s;
+}
+
+.button:focus {
+  background-color: hsl(25, 97%, 53%);
+  transition: background-color 1s;
+}
+
+.bloc-button {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.submit {
+  margin: auto;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 50px;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  width: 330px;
+  height: 38px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.submit:hover {
+  background-color: hsl(25, 86%, 63%);
+  transition: background-color 1s;
+}
+
+.submit:focus {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  transition: background-color 1s;
+}
+
+.card-2 {
+  background-color: hsl(213, 19%, 18%);
+  width: 374px;
+  height: 358px;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  padding: 33px;
+  color: hsl(0, 0%, 100%);
+  border-radius: 30px;
+  visibility: hidden;
+}
+
+.image {
+  margin-left: 98px;
+  width: 172px;
+}
+
+#result {
+  background-color: hsl(213, 19%, 18%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 60px;
+}
+
+h2 {
+  margin-top: 48px;
+  text-align: center;
+  font-size: 33px;
+}
+
+.text-2 {
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+}
+
+#result {
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.reponse {
+  color: hsl(25, 97%, 53%);
+  margin-bottom: 38px;
+}
+
+/*# sourceMappingURL=style.css.map */

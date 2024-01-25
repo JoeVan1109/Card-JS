@@ -1,0 +1,144 @@
+@import "./_base/typography";
+@import "./_utils/functions";
+@import "./_utils/mixins";
+@import "./_utils/variables";
+
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: $verydarkblue;
+}
+//TODO----------------------------------------------------------------------------------------
+.card-1{
+    background-color: $darkblue;
+    width: 374px;
+    height: 358px;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    padding: 33px;
+    color: $white;
+    border-radius: 30px;
+}
+
+.rond{
+    background-color: $darkblue;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.star{
+    position: relative;
+    top: 11px;
+    left: 11px;
+}
+
+h1{
+    margin-top: 70px;
+}
+
+.text-1{
+    color: $lightgrey;
+}
+
+.button{
+    background-color: $darkblue;
+    border-radius: 50%;
+    color: $mediumgrey;
+    border: none;
+    width: 38px;
+    height: 38px;
+    margin: 18px;
+    margin-bottom: 44px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.button:hover{
+    background-color: $mediumgrey;
+    transition: background-color 1s;
+}
+.button:focus{
+    background-color: $orange;
+    transition: background-color 1s;
+}
+
+
+.bloc-button{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.submit{
+    margin: auto;
+    background-color: $orange;
+    border-radius: 50px;
+    border: none;
+    color: $white;
+    width: 330px;
+    height: 38px;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.submit:hover{
+    background-color: $orangeatten;
+    transition: background-color 1s;
+}
+.submit:focus{
+    background-color: $white;
+    color: $orange;
+    transition: background-color 1s;
+}
+//TODO-----------------------------------------------------------------------------------------
+
+
+.card-2{
+    background-color: $darkblue;
+    width: 374px;
+    height: 358px;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    padding: 33px;
+    color: $white;
+    border-radius: 30px;
+    visibility: hidden;
+}
+
+.image{
+    margin-left: 98px;
+    width: 172px;
+}
+#result{
+    background-color: $darkblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 60px;
+}
+h2{
+    margin-top: 48px;
+    text-align: center;
+    font-size: 33px;
+}
+.text-2{
+    text-align: center;
+    color: $lightgrey;
+}
+
+#result{
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    
+
+}
+.reponse{
+    color: $orange;
+    margin-bottom: 38px;
+}
+
